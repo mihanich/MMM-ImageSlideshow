@@ -132,8 +132,8 @@ Module.register("MMM-ImageSlideshow", {
 				}
 				if (showSomething) {
 					// create the image dom bit
-					var decorator = document.createElement("div");
-					decorator.className = "box";
+					var div = document.createElement("div");
+					div.className = "box";
 					var image = document.createElement("img");
 					// if set to make grayscale, flag the class set in the .css file
 					if (this.config.makeImagesGrayscale)
