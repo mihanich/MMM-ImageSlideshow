@@ -30,6 +30,8 @@ Module.register("MMM-ImageSlideshow", {
         treatAllPathsAsOne: false,
         // if true, all images will be made grayscale, otherwise as they are
         makeImagesGrayscale: false,
+	// set image shadow
+	makeImageShadow: true,
         // list of valid file extensions, seperated by commas
         validImageFileExtensions: 'bmp,jpg,gif,png',
 		// a delay timer after all images have been shown, to wait to restart (in ms)
@@ -134,8 +136,10 @@ Module.register("MMM-ImageSlideshow", {
 					// if set to make grayscale, flag the class set in the .css file
 					if (this.config.makeImagesGrayscale)
 						image.className = "desaturate";
+					if (this.config.makeImageShadow)
+						image.className = "inner-shadow";
 					// create an empty string
-					var styleString = 'inner-shadow; ';
+					var styleString = '';
 					// if width or height or non-zero, add them to the style string
 					if (this.config.fixedImageWidth != 0)
 						styleString += 'width:' + this.config.fixedImageWidth + 'px;';
