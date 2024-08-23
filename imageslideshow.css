@@ -7,12 +7,13 @@ img.desaturate {
 }
 
 img.inner-shadow {
-  	box-shadow: inset rgba(60, 70, 85, 0.5) 0px 0px 40px 0px, inset rgba(60, 70, 85, 0.5) 0px 0px 40px 0px, inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
+  	box-shadow: rgb(114, 114, 114) 0px 0px 10px 5px inset;
 }
 
 img.box {
-	  margin: 4rem auto;
-	  padding: 1rem;
-	  text-align: center;
-	  border-radius: 1rem;
+	margin: 4rem auto;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 1rem;
+	box-shadow: rgb(114, 114, 114) 0px 0px 10px 5px inset;
 }
