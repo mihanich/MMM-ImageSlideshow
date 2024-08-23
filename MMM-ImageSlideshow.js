@@ -135,7 +135,7 @@ Module.register("MMM-ImageSlideshow", {
 					if (this.config.makeImagesGrayscale)
 						image.className = "desaturate";
 					// create an empty string
-					var styleString = '';
+					var styleString = 'inner-shadow; ';
 					// if width or height or non-zero, add them to the style string
 					if (this.config.fixedImageWidth != 0)
 						styleString += 'width:' + this.config.fixedImageWidth + 'px;';
