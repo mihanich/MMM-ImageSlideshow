@@ -7,7 +7,10 @@ img.desaturate {
 }
 
 img.inner-shadow {
-	position: relative;
+   position: relative; 
+  -webkit-box-shadow: inset 0 0 10px 10px #000;    
+    -moz-box-shadow: inset 0 0 10px 10px #000;
+    box-shadow: inset 0 0 10px 10px #000;
 }
 
 img.inner-shadow::after {
