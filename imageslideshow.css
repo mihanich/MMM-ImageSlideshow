@@ -5,6 +5,6 @@ img.desaturate {
 	filter: grayscale(100%);
 	box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
-inner-shadow {
+img.inner-shadow {
   	box-shadow: rgb(114, 114, 114) 0px 0px 10px 5px inset;
 }
