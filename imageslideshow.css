@@ -10,7 +10,7 @@ img.inner-shadow {
 	box-shadow: inset 0px 0px 10px 5px rgb(114, 114, 114);
 }
 
-decorator.box {
+div.box {
 	margin: 4rem auto;
 	padding: 1rem;
 	text-align: center;
